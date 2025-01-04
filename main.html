@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diễn đàn ghi chú</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Diễn đàn ghi chú</h1>
+    </header>
+    <main>
+        <section id="post-form">
+            <h2>Đăng bài viết</h2>
+            <form id="new-post-form">
+                <input type="text" id="post-title" placeholder="Tiêu đề" required>
+                <textarea id="post-content" placeholder="Nội dung bài viết" required></textarea>
+                <input type="file" id="post-image" accept="image/*">
+                <button type="submit">Đăng bài</button>
+            </form>
+        </section>
+        <section id="posts">
+            <h2>Bài viết</h2>
+            <div id="posts-list">
+                <!-- Bài viết sẽ được hiển thị ở đây -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
